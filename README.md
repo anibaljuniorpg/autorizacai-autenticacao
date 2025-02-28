@@ -1,33 +1,37 @@
-Autenticação e Autorização com Spring Security e JWT
+# Autenticação e Autorização com Spring Security e JWT
 
 Este projeto implementa um sistema de autenticação e autorização utilizando Spring Boot, Spring Security, JWT (JSON Web Token) e controle de permissões baseado em roles.
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-Java 17+
+- Java 17+
+- Spring Boot
+- Spring Security
+- JWT (JSON Web Token)
+- Banco de Dados (MySQL/PostgreSQL/H2, conforme necessidade)
+- JPA/Hibernate
+- Lombok
+- Maven
 
-Spring Boot
+## Funcionalidades
 
-Spring Security
+- Registro de usuários
+- Autenticação com JWT
+- Autorização baseada em roles
+- Proteção de rotas com Spring Security
+- Refresh Token (opcional)
 
-JWT (JSON Web Token)
+## Endpoints Principais
 
-Banco de Dados (MySQL/PostgreSQL/H2, conforme necessidade)
+### Autenticação
 
-JPA/Hibernate
+- `POST /auth/register` - Registra um novo usuário
+- `POST /auth/login` - Autentica o usuário e retorna um JWT
 
-Lombok
 
-Maven
+## Autores
 
-Funcionalidades
+- [Anibal Júnior](https://github.com/anibaljuniorpg)
 
-Registro de usuários
 
-Autenticação com JWT
 
-Autorização baseada em roles
-
-Proteção de rotas com Spring Security
-
-Refresh Token (opcional)
