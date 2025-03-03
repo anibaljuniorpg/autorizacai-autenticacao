@@ -42,6 +42,7 @@ public class AuthService {
                 .role(requestDTO.role()).build();*/
         User newUser = new User(requestDTO.login(), securityConfiguration.passwordEncoder().encode(requestDTO.password()), requestDTO.role());
         String token = tokenService.generateToken(newUser);
+        reposirory.save(newUser);
         LoginResponseDTO loginResponseDTO = new LoginResponseDTO(requestDTO.login(), token);
         return loginResponseDTO;
     }
