@@ -30,6 +30,7 @@ Este projeto implementa um sistema de autenticação e autorização utilizando 
    
 2. Instale as dependências utilizando Maven:
 
+   ```bash
    mvn install
 
 ## Endpoints Principais
