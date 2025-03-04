@@ -21,7 +21,17 @@ Este projeto implementa um sistema de autenticação e autorização utilizando 
 - Proteção de rotas com Spring Security
 - Refresh Token (opcional)
 
+## Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/anibaljuniorpg/autorizacai-autenticacao.git
+
 ## Endpoints Principais
+
+- POST /auth/login - Login na aplicação.
+- POST /auth/register - Registrar um novo usuário na aplicação.
 
 ### Autenticação
 
