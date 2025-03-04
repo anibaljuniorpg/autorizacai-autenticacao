@@ -27,6 +27,10 @@ Este projeto implementa um sistema de autenticação e autorização utilizando 
 
    ```bash
    git clone https://github.com/anibaljuniorpg/autorizacai-autenticacao.git
+   
+2. Instale as dependências utilizando Maven:
+
+   mvn install
 
 ## Endpoints Principais
 
